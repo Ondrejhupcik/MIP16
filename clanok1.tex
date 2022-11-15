@@ -1,0 +1,135 @@
+% Metódy inžinierskej práce
+
+\documentclass[10pt,twoside,slovak,a4paper]{article}
+
+\usepackage[slovak]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+
+\usepackage{cite}
+%\usepackage{times}
+
+\pagestyle{headings}
+
+\title{Hry a peniaze\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2022/23, vedenie: Meno Priezvisko}} % meno a priezvisko vyučujúceho na cvičeniach
+
+\author{Ondrej Hupčík\\[2pt]
+	{\small Slovenská technická univerzita v Bratislave}\\
+	{\small Fakulta informatiky a informačných technológií}\\
+	{\small \texttt{xhupcik@stuba.sk}}
+	}
+
+\date{\small 31. október 2022} 
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+Článok sa bude zameriavať na nasledujúcei tri oblasti:
+\item1.	Pay to win vs free to play – porovnanie hrania hier s možnosťou kupovania prostriedkov v hre alebo bez investícií a obľúbenosť voľne dostupných hier oproti plateným hrám.
+\item2.	Gambling v hrách, hazardné hry a veľké investície do hier – Prečo nás hranie hier často núti ku gamblingu a hazardu za fiktívnym účelom zisku alebo stále vyšším výdavkom pre rýchlejší postup, alebo viacej možností v hre na úkor našej peňaženky.
+\item3.	Herné vývojárske spoločnosti a ich zisky – Rozširovanie herného priemyslu pre stále vyšší dopyt po hrách spôsobuje v posledných rokoch stále vyššie zisky spoločností.
+
+\end{abstract}
+
+
+\section{Úvod}
+
+Peniaze sú prítomé v takmer každej oblasti nášho života. Rovnako tomu je aj vo svete počítačových hier. Pozornosť ľudí sa neustále presúva viac do online priestoru čo znamená, že za počítačom trávime veľa času.
+
+Rovnako tak aj mladšia generácia ktorá sa tam ale vo väčšine nevenuje vzdelávaniu ani práci ale počítačovým hrám. To buduje závislosti a v niektorých prípadoch aj finančné problémy. 
+
+Ako sa dajú míňať peniaze na hranie hier? Väčšie výdavky začínajú už pri kúpe hernej konzoly, počítača alebo notebooku, keď si za lepší výkon ktorý je potrebný pre hranie náročnejších hier na grafiku priplácame stovky eur. Pokračujeme s platenými hrami a pay-to-win mechanikou ktorá je pre herné vývojárske spoločnosti mimoriadne výhodná.
+
+%~\ref{zaver}.
+%\includegraphics[scale=1.0]{png2pdf.pdf}
+
+
+
+\section{Pay-to-win a free-to-play hry} 
+
+\subsection{Pay-to-win} 
+
+Pay-to-win mechanika alebo platba za výhru je princíp podľa ktorého investovaním do počítačovej hry získame väčšiu šancu na výhru, zrýchlime náš postup alebo odomkneme možnosti navyše. 
+
+Hra sa považuje za pay-to-win keď hráč vďaka plateniu získa výhodu nad neplatiacimi hráčmi. Pri pay-to-win transakciách si môžeme kúpiť prostriedky ktoré uľahčujú hranie ako prémiový účet alebo hernú menu. Transakcie ktorými získavame estetické zlepšenia, doplnky a skiny známe z hier Counter-Strike alebo Fortnite sa nepovažujú za pay-to-win.
+
+Táto mechanika rozdeluje komunitu hráčov na dva tábory. Skupina hráčov ktorí sú odporcami platenia musia do hry investovať niekoľkonásobne väčšie množstvo času a úsilia aby dosiahli podobných výsledkov ako hráči ktorý sa nebránia investovaniu do hry. 
+
+Hráči ktorí začali s pay-to-win mechanikou tak častokrát nevedia kedy prestať a miňajú veľké sumy peňazí o čom hovorí aj autor článku (1)
+"Prvok frustrácie je pevnou súčasťou úspešných pay-to-win hier. Vaša frustrácia vás ľahko dovedie k impulzívnemu nákupu, vďaka čomu získate silnejšie karty a zvýšite svoj rating. Nasleduje dočasné uspokojenie. Ale pokiaľ do hry neinvestujete stovky eur a nebudete mať všetko na maxime, frustrácia nikdy nezmizne. Znovu sa vráti, ale na vyššom ratingu. "\cite{CL1}.
+
+%\begin{figure*}[tbh]
+%\centering
+
+%Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
+%\caption{Rozhodujúci argument.}
+%\label{f:rozhod}
+%\end{figure*}
+
+
+
+\subsection{Free-to-play} 
+
+Free-to-play hrami rozumieme hry ktoré ponúkajú väčšinu svojho obsahu bez nutnosti platenia alebo ich hranie je zadarmo. Platené hry paradoxne bývajú označované ako free-to-play pretože samotné hranie a postup v nich si nevyžaduje finančné investície. 
+
+V niektorých prípadoch sú hry označované za free-to-play aj keď tomu tak v praxy nie je. Príkladom je hra World-of-Tanks ktorá je oficiálne voľne dostupná na stiahnutie. Väčšina komunity jej hráčov ju považuje za pay-to-win kvôli veľkému množstvu platených vylepšení ako  herná mena, vozidlá, prémiový účet alebo vybavenie. 
+
+Tieto všetky prostriedky dávajú platiacim hráčom značnú výhodu oproti neplatiacim hráčom. Niektoré platené vylepšenia sa dajú nahradiť ako aj lepšími výsledkami v hre alebo vo väčšine prípadov  veľkým množstvom stráveného času pri hraní, avšak väčšina prostriedkov sa takto nahradiť nedá. 
+
+
+
+\subsection{Platené hry} 
+
+Platené hry sú v poslednom období veľmi obľúbené. Fakt, že hru ktorú hrám, som si kúpil a nehrám ju zdarma podvedome pridáva na hodnote samotnej hry. 
+
+Začiatkom tohto tisícročia prišli na trh teraz už populárne herné konzoly Xbox a PlayStation, ktoré si získali najmä finančne zabezpečenejších zákazníkov, keďže konzoly a samotné hry nie sú lacná záležitosť. Rovnako je tomu aj pri počítačových hrách kde si za kvalitnejšiu hru často priplácame. 
+
+Dôkazom obľúbenosti platených hier sú Player Unknown’s Battlegrounds (PUBG) a Grand Theft Auto V (GTA 5), ktoré sa aj napriek tomu že stoja desiatky eur, radia medzi 5 najhranejších hier vôbec. 
+
+Keďže spoločnosti majú vysoké príjmy z predaja samotnej hry, platené hry sú často free-to-play, teda bez ďaľších väčších investícií pre rýchlejší postup a bez reklám čo pridáva na obľúbenosti týchto hier.
+
+
+
+\subsection{Voľne dostupné hry} 
+
+Voľne dostupné hry sú finančne výhodnejšou alternatívou k plateným hrám, či už si ich musíme stiahnuť alebo sú dostupné priamo v prehliadači. 
+
+Vo väčšine prípadoch sú graficky menej kvalitné ako platené hry. Priamy predaj hráčom týchto hier neprináša herným vývojarskym spoločnostiam žiadne príjmy. 
+Pri hrách dostupných v prehliadači sú tieto chýbajúce pŕíjmy nahradené množstvom reklám ktoré majú pri hraní rušivú tendenciu.
+
+Hry ktoré sú dostupné po stiahnutí poskytujú menšie množstvo reklám ale príjmy sú nahradené mechanikou pay-to-win ktorá je vysvetlená v časti 2.1.
+
+
+
+\section{Gambling a hazardné hry} 
+
+Hazardné hry existovali dlho pred dobou internetu. Avšak internet spravil tieto hry dostupnými širším masám a taktiež maloletým osobám. 
+
+Mechaniku a psychológiu online gamblingu vystihuje článok (2):" Na rozdiel od hrania hier, kde je hlavným lákadlom prežívaný zážitok, dobrodružstvo a zábava, hlavným lákadlom pri online gamblingu je vidina zisku. To zároveň vyžaduje, aby hráč do hry vložil svoje peniaze. Môže niečo vyhrať, neskôr však prichádza o stále väčšie sumy peňazí. To ho núti vsádzať stále viac, aby si vynahradil predchádzajúcu stratu. Hráč je presvedčený o tom, že raz to musí vyjsť. "\cite{CL2}. Stránky a spoločnosti ktoré poskytujú hazardné hry a online gambling na propagáciu využívajú reklamu na ktorú môžeme naraziť napríklad vo forme spamu do e-mailu alebo pop-up reklamy.
+
+\includegraphics[scale=0.7]{Diagram.pdf}
+
+\cite{CL3}. Obr.1\cite{Obr1}. 
+
+
+\section{Herné vývojárske spoločnosti a ich zisky} 
+
+
+
+\section{Záver} \label{zaver} % prípadne iný variant názvu
+
+
+%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
+
+
+% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+\bibliography{literatura1}
+\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\end{document}
